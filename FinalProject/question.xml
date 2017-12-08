@@ -1,0 +1,74 @@
+<question text = "Does it fly?">
+	<yes>
+		<question text = "Does it have feathers?"> 
+			<yes> It's a bird. </yes>
+			<no>
+				<question text = "Is it active in the dark?">
+					<yes> It's a bat. </yes>
+					<no> It's a bee. </no>
+				</question>
+			</no>
+		</question>
+	</yes>
+	<no> 
+		<question text = "Does it have four legs?">
+			<yes>
+				<question text = "Is it an amphibian?">
+					<yes> It's a frog. </yes>
+					<no>
+						<question text = "Is it vegetarian?">
+							<yes>
+								<question text = "Is it big, slow, and heavy?">
+									<yes>
+										<question text = "Does it like eating sugar canes?">
+											<yes> It's an elephant. </yes>
+											<no> It's a cow. </no>
+										</question>
+									</yes>
+									<no> It's a rabbit. </no>
+								</question>
+							</yes>
+							<no>
+								<question text = "Is it usually grown for meat">
+									<yes> It's a pig. </yes>
+									<no>
+										<question text = "Does it live in the water?">
+											<yes> It's a crocodile. </yes>
+											<no>
+												<question text = "Does one of its species live in the North Pole">
+													<yes> It's a bear. </yes>
+													<no> It's a tiger. </no>
+												</question>
+											</no>
+										</question>
+									</no>
+								</question>
+							</no>
+						</question>
+					</no>
+				</question>
+			</yes>
+			<no>
+				<question text = "Does it live in the water?">
+					<yes>
+						<question text = "Does it have a lot of legs?">
+							<yes> It's a crab. </yes>
+							<no>
+								<question text = "Does it sort of look like an umbrella?">
+									<yes> It's a jellyfish. </yes>
+									<no> It's a fish. </no>
+								</question>
+							</no>
+						</question>
+					</yes>
+					<no>
+						<question text = "Does it have a lot of legs?">
+							<yes> It's an ant. </yes>
+							<no> It's a snake. </no>
+						</question>
+					</no>
+				</question>
+			</no>
+		</question>
+	</no>
+</question>
